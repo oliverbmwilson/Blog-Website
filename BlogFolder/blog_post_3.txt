@@ -1,0 +1,8 @@
+<?php
+$blog_name="Amuthalakshmi";
+$blog_comment_file="CommentsFile/commentsfile_3.txt";
+$blog_title="Testing Blogs with comments";
+$blog_date="4th December 2016";
+$blog_content="this is a testing Blogs with comments when new post gets created";
+$blog_file_name="BlogFolder/blog_post_3.txt";
+?>

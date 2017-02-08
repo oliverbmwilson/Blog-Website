@@ -1,0 +1,186 @@
+html { 
+    background: url(background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 32px white Tamhoma;
+}
+
+h2 {
+    font: bold 24px Tamhoma;
+}
+
+p {
+    font: 18px Tamhoma;
+}
+
+header, footer {
+    display: block;
+}
+
+body {
+    width: 100%;
+}
+
+#top_bar {
+    min-height: 50px;
+    background: hsla(0, 100%, 100%, 0.5);
+    border-radius: 7px;
+    display: flex;
+    flex-flow: row;
+}
+
+#main_header {
+    padding: 20px;
+    text-align: left;
+    flex: 10;
+}
+
+#back {
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#logout {
+    margin: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#edit_post_button {
+    margin: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#logout_button {
+    width: 100%;
+    height: 100%;
+}
+
+#search_box {
+    padding: 20px;
+    text-align: right;
+}
+
+article {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 7px;
+    background: hsla(0, 100%, 100%, 0.5);
+    text-align: left;
+}
+
+article > footer {
+    text-align: right;
+}
+
+#comments {
+    padding: 10px;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 7px;
+    background: hsla(0, 100%, 100%, 0.5);
+}
+
+#comments label {
+  display: block;
+}
+
+#comments label:after { 
+  content:" *";
+}
+
+#respond {
+    margin-top: 40px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 7px;
+    width: 50%;
+    background: hsla(0, 100%, 100%, 0.5);
+}
+
+#respond input[type='text'],
+#respond input[type='email'],	
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;  
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;  
+  line-height: 1.4em;
+}
+
+#posts-list.has-comments li.no-comments {
+  display: none;
+}
+
+
+#main_footer {
+    padding: 5px;
+    margin: 20px;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+#edit_post_popup{
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 50px; 
+    padding-top: 10px; 
+    width: 80%; 
+    height: 500px; 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: white; 
+    border: solid #000000 2px; 
+    z-index: 9;
+    visibility: hidden; 
+    display:block;
+}
+
+#edit_post_ui, #author_field, #blog_post_field, #title_field, .block {
+    display: block;
+}
+
+#edit_post_buttons {
+    margin-top: 10px;
+}
+
+#author_field {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#title_field {
+    margin-bottom: 1%;
+}
+
+#edit_post_ui {
+    margin: 1%;
+}
+
+#blog_post {
+    width: 100%;
+    height: 30vh;
+}
+
+.error {
+    text-align: left;
+    color: red;
+}
+
+.required_field {
+    display: inline;
+    color:red;
+}

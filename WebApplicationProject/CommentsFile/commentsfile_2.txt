@@ -1,0 +1,16 @@
+ 
+
+<table style='background: white; width: 100%; border-spacing: 20px; border-collapse: separate;text-align: justify; text-justify: inter-word;'> 
+        <tr> 
+        <td style='width:20%;'> 
+<name style='font-size: 20px;color: FireBrick;'>DEF</name><br>
+<date style='font-size: 10px;color: FireBrick'>  4th December 2016</date><br>
+<time style='font-size: 10px;color: FireBrick'>  10:00:00 PM</time><br>
+
+        </td> 
+ 
+        <td ><comment style='font-size: 15px; font-style: italic;'>DEF's comment1</comment></td> 
+        </tr>
+        </table>
+<br>
+

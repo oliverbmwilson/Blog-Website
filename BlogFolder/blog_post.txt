@@ -1,0 +1,14 @@
+<?php
+$blog_name="Amu and Ollie";
+$blog_comment_file="CommentsFile/commentsfile.txt";
+$blog_title="How to Get 1000 Shares to Your Next Blog Post";
+$blog_date="4/5/2016";
+$blog_content="Do you want to promote your blog post to more readers? Are you wondering how to get your blog content shared all over the social media?
+
+                Creating quality content is important but it’s more important to make sure your content gets seen.
+
+                Not everyone who writes a blog gets 1000 shares per post. Quite ironically, some blogs achieve their first 1000 or might be even 10,000 shares within some hours or a day of publishing. Sometimes it can be very tough to get more than 100 honest shares (you can get 500+ by spamming in Facebook groups but it is of no value).
+
+                While more shares are important for social proof and also showing authority many of my readers have been struggling with low share counts.That is why I have created the below infographic to help you get more shares from every article you write.";
+$blog_file_name="BlogFolder/blog_post.txt";
+?>

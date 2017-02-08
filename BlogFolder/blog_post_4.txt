@@ -1,0 +1,8 @@
+<?php
+$blog_name="Pete";
+$blog_comment_file="";
+$blog_title="Pete's life";
+$blog_date="4th December 2016";
+$blog_content="My name is pete and life is ok";
+$blog_file_name="BlogFolder/blog_post_4.txt";
+?>

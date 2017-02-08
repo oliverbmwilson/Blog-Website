@@ -1,0 +1,8 @@
+<?php
+$blog_name="wedwe";
+$blog_comment_file="";
+$blog_title="sdfsdfsdf";
+$blog_date="5th December 2016";
+$blog_content="sdfsdfsdfsdfewrf";
+$blog_file_name="BlogFolder/blog_post_5.txt";
+?>

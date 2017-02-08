@@ -1,0 +1,8 @@
+<?php
+$blog_name="DEF";
+$blog_comment_file="CommentsFile/commentsfile_2.txt";
+$blog_title="DEF";
+$blog_date="4th December 2016";
+$blog_content="Blog post by DEF.";
+$blog_file_name="BlogFolder/blog_post_2.txt";
+?>

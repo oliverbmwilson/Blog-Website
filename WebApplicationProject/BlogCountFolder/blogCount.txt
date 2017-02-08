@@ -1,0 +1,3 @@
+<?php
+$blogCountValue="4";
+?>
